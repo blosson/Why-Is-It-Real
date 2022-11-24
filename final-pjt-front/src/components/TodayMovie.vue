@@ -6,7 +6,7 @@
           <div class="row justify-content-center">
             <div class="col-9">
               <h5><span class="fs-bold" style="color: #00ABB3;">{{ userName }}</span>님 안녕하세요</h5>
-              <h4 class="mb-4">오늘 <span style="color: #00ABB3;">{{ todayMovie.title }}</span> 한편 어떠세요?</h4>
+              <h4 class="mb-4 fw-bold">오늘 <span style="color: #00ABB3;">{{ todayMovie.title }}</span> 한편 어떠세요?</h4>
             </div>
           </div>
           <router-link style='text-decoration: none;' :to="{ name: 'detail', params: { movie_id: todayMovie.movie_id } }">
@@ -21,7 +21,7 @@
         <div class="carousel-item" data-bs-interval="10000">
           <div class="row justify-content-center">
             <div class="col-9">
-              <h4 class="mb-4">이런 영화도 있어요!</h4>
+              <h4 class="mb-4 fw-bold">이런 영화도 있어요!</h4>
             </div>
           </div>
           <router-link style='text-decoration: none;' :to="{ name: 'detail', params: { movie_id: todayMovie.movie_id } }">

@@ -75,7 +75,7 @@ export default {
   data() {
     return {
       userData: null,
-      userImage: null, // 11.24 추가
+      userImage: 'profiles/default.jpg', // 11.24 추가
       showvalue: false,
     }
   },

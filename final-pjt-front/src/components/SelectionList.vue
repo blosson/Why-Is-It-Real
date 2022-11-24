@@ -8,7 +8,7 @@
       />
     </div><br>
     <div class="d-flex justify-content-center sticky-bottom">
-      <button class="btn btn-primary mb-2" style="background-color: #00ABB3; border: #00ABB3; height: 70px; width: 350px; box-shadow: 0 4px 4px -2px black;" @click="goHome">영화 추천받으러 가기</button>
+      <button class="btn btn-primary mb-5" style="background-color: #00ABB3; border: #00ABB3; height: 70px; width: 350px; box-shadow: 0 4px 4px -2px black;" @click="goHome">영화 추천받으러 가기</button>
     </div>
   </div>
 </template>

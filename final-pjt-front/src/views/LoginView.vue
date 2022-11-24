@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div style="height: 120px;"></div>
     <div class="container" style="width: 400px; backgrount-color: white;">
       <h2 class="text-center" style="color: #00ABB3;">Login</h2>
       <hr class="mx-auto" style="width: 50px; border: 0; height: 5px; background: #00ABB3;">
